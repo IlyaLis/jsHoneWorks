@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS</title>
+	<script>
+		var result, contin = true;
+		while(contin){
+			result = prompt('Введите значение', '');
+			var numb = parseInt(result);
+			if(isNaN(numb)){
+				console.log('end funct');
+				contin = false;
+			}else{
+				alert(numb);
+			}
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
